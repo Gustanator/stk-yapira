@@ -1,122 +1,135 @@
 <!DOCTYPE html>
-    <html>
-        <header>
-            <title>STK Yapira Website</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<style>
-				body {
-					font-family: Helvetica, Arial, Verdana, sans-serif;
-				}
-				a.mainlinks{
-					color: yellow;
-					background-color: black;
-					border: solid yellow 1.5px;
-					text-align: center;
-					font-weight: bold;
-					padding: 0.25rem 0.5rem;
-					margin: 0.2rem;
-					text-decoration: none;
-				}
-				a.morelinks{
-					color: black;
-					border: solid black 1.5px;
-					text-align: center;
-					font-weight: bold;
-					padding: 0.25rem 0.5rem;
-					margin: 0.12rem;
-					text-decoration: none;
-					font-size: 70%;
-				}
-				a.eventslink{
-					color: black;
-					background-color: yellow;
-					border: solid black 1.5px;
-					text-align: center;
-					font-weight: bold;
-					padding: 0.25rem 0.5rem;
-					margin: 0.12rem;
-					text-decoration: none;
-					font-size: 50%;
-				}
-	</style>
-        </header>
-        <body>
-            <h1>Hi :3</h1>
-            <h4>Welcome to STK Yapira Website!</h4>
-			<div class="menu">
-                <a href="https://gustanator.github.io/stk-yapira/index.html" class="mainlinks">Go back</a>
-                <a href="https://gustanator.github.io/stk-yapira/about.html" class="mainlinks">About</a>
-                <a href="https://matrix.to/#/#stk_yapira_servers_chat:matrix.org" class="mainlinks">Matrix Channel</a>
-                <br><br>
-			    <a href="https://supertuxkart.net" class="morelinks">STK Website</a>
-                <a href="https://online.supertuxkart.net/rankings.php" class="morelinks">STK Ranking</a>
-                <a href="https://www.youtube.com/@Gusta_TheSewerFox" class="morelinks">My channel</a>
-			</div>
-			<h4>Yapira Endurance League 1st Edition</h4>
-            <h5>WHAT IS IT?</h5>
-            <p>This event is a endurance championship with twelve previously selected tracks and two races in each round (each round will be one weekend on Saturdays), and a points ranking that is filled with your points that you get each race (the points system is further down the page), and ANYONE CAN PARTICIPATE ON THIS EVENT (without the need of subscription).</p>
-            <h5>CALENDAR</h5>
-            <a href="https://raw.githubusercontent.com/GustaLOLE/stk-yapira/refs/heads/yapira/img/calendar_yel.png">
-                <img src="https://raw.githubusercontent.com/GustaLOLE/stk-yapira/refs/heads/yapira/img/calendar_yel.png" alt="Yapira Endurance League !st Ed." style="width: 372px; height: 210px;">
-                <p style="color: black;">"Click me to zoom me!"</p>
-            </a>
-            <h5>RESULTS</h5>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxmKzjmUbDCTFRonGoBw4cqUJvHBCFvpkgDDTrX4kjDEVuoEMINtfmDEfkP5NXxIIaQAzwSnotDLrp/pubhtml?gid=2110725914&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-            <br>
-            <h5>SOME RULES</h5>
-            <p>1 - DURATION: The races will last normally 20 laps (can change depending the lap time of each track), and the points will be distributed in each race.</p>
-            <p>2 - AVOID HITTING PLAYERS WHO AREN'T ON THE SAME LAP AS YOU, DAMMIT (if not, you can be PUNISHED with lose of points).</p>
-            <p>3 - SCHEDULE: All races will start on the Saturdays wrote in the calendar, at 16:30 UTC (5 mins. of tolerance before the race start) and the second race will start 10 mins. after the finish of the first race.</p>
-            <h5>THE PONTUATION SYSTEM</h5>
-            <p>This is the points distributed in the races:</p>
-            <table>
-                <tr>
-                    <th>Position</th>
-                    <th>Points</th>
-                </tr>
-                <tr>
-                    <td>1st</td>
-                    <td>25 pts.</td>
-                </tr>
-                <tr>
-                    <td>2nd</td>
-                    <td>18 pts.</td>
-                </tr>
-                <tr>
-                    <td>3rd</td>
-                    <td>15 pts.</td>
-                </tr>
-                <tr>
-                    <td>4th</td>
-                    <td>12 pts.</td>
-                </tr>
-                <tr>
-                    <td>5th</td>
-                    <td>10 pts.</td>
-                </tr>
-                <tr>
-                    <td>6th</td>
-                    <td>8 pts.</td>
-                </tr>
-                <tr>
-                    <td>7th</td>
-                    <td>6 pts.</td>
-                    </tr>
-                <tr>
-                    <td>8th</td>
-                    <td>4 pts.</td>
-                </tr>
-                <tr>
-                    <td>9th</td>
-                    <td>2 pts.</td>
-                </tr>
-                <tr>
-                    <td>10th</td>
-                    <td>1 pt.</td>
-                </tr>
-            </table>
-            <p>In disconnection cases, you can receive A PART of the points based on this equation:</p>
-            <h5>[(Amount of laps made by a player) * (Pontuation that the player could win when he disconnects)] / (Amount of laps of the race)</h5>
-            <p>EXAMPLE: In a 25 laps race, if you make 17 laps and be on 6th position when you disconnect, you will receive (18 * 6) / 25 = 108 / 25 = more or less 4 points</p>
-        </body>
-    </html>
+<html>
+<header>
+    <title>STK Yapira Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Helvetica, Arial, Verdana, sans-serif;
+        }
+
+        a.mainlinks {
+            color: yellow;
+            background-color: black;
+            border: solid yellow 1.5px;
+            text-align: center;
+            font-weight: bold;
+            padding: 0.25rem 0.5rem;
+            margin: 0.2rem;
+            text-decoration: none;
+        }
+
+        a.morelinks {
+            color: black;
+            border: solid black 1.5px;
+            text-align: center;
+            font-weight: bold;
+            padding: 0.25rem 0.5rem;
+            margin: 0.12rem;
+            text-decoration: none;
+            font-size: 70%;
+        }
+
+        a.eventslink {
+            color: black;
+            background-color: yellow;
+            border: solid black 1.5px;
+            text-align: center;
+            font-weight: bold;
+            padding: 0.25rem 0.5rem;
+            margin: 0.12rem;
+            text-decoration: none;
+            font-size: 50%;
+        }
+    </style>
+</header>
+
+<body>
+    <h1>Hi :3</h1>
+    <h4>Welcome to STK Yapira Website!</h4>
+    <div class="menu">
+        <a href="https://gustanator.github.io/stk-yapira/index.html" class="mainlinks">Go back</a>
+        <a href="https://gustanator.github.io/stk-yapira/about.html" class="mainlinks">About</a>
+        <a href="https://matrix.to/#/#stk_yapira_servers_chat:matrix.org" class="mainlinks">Matrix Channel</a>
+        <br><br>
+        <a href="https://supertuxkart.net" class="morelinks">STK Website</a>
+        <a href="https://online.supertuxkart.net/rankings.php" class="morelinks">STK Ranking</a>
+        <a href="https://www.youtube.com/@Gusta_TheSewerFox" class="morelinks">My channel</a>
+    </div>
+    <h4>Yapira Endurance League 1st Edition</h4>
+    <h5>WHAT WAS IT?</h5>
+    <p>This event was planned to be a endurance championship (and was the beta version of STK Enduro League) with twelve previously selected tracks and two races in
+        each round (each round will be one weekend on Saturdays), and a points ranking that is filled with your points
+        that you get each race (the points system is further down the page), and ANYONE COULD PARTICIPATE ON THIS EVENT
+        (without the need of subscription).</p>
+    <h5>CALENDAR</h5>
+    <a href="https://raw.githubusercontent.com/GustaLOLE/stk-yapira/refs/heads/yapira/img/calendar_yel.png">
+        <img src="https://raw.githubusercontent.com/GustaLOLE/stk-yapira/refs/heads/yapira/img/calendar_yel.png"
+            alt="Yapira Endurance League !st Ed." style="width: 372px; height: 210px;">
+        <p style="color: black;">"Click me to zoom me!"</p>
+    </a>
+    <h5>RESULTS</h5>
+    <p>Was done only the first round, and as I lost the recording, I just remember that Felix.STK, nikolas220, FlashGameer, sylwestar and me (as GustaLOLE)</p>
+    <h5>SOME PLANNED RULES</h5>
+    <p>1 - DURATION: The races will last normally 20 laps (can change depending the lap time of each track), and the
+        points will be distributed in each race.</p>
+    <p>2 - AVOID HITTING PLAYERS WHO AREN'T ON THE SAME LAP AS YOU, DAMMIT (if not, you can be PUNISHED with lose of
+        points).</p>
+    <p>3 - SCHEDULE: All races will start on the Saturdays wrote in the calendar, at 16:30 UTC (5 mins. of tolerance
+        before the race start) and the second race will start 10 mins. after the finish of the first race.</p>
+    <h5>THE PONTUATION SYSTEM</h5>
+    <p>This is the points distributed in the races:</p>
+    <table>
+        <tr>
+            <th>Position</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>1st</td>
+            <td>25 pts.</td>
+        </tr>
+        <tr>
+            <td>2nd</td>
+            <td>18 pts.</td>
+        </tr>
+        <tr>
+            <td>3rd</td>
+            <td>15 pts.</td>
+        </tr>
+        <tr>
+            <td>4th</td>
+            <td>12 pts.</td>
+        </tr>
+        <tr>
+            <td>5th</td>
+            <td>10 pts.</td>
+        </tr>
+        <tr>
+            <td>6th</td>
+            <td>8 pts.</td>
+        </tr>
+        <tr>
+            <td>7th</td>
+            <td>6 pts.</td>
+        </tr>
+        <tr>
+            <td>8th</td>
+            <td>4 pts.</td>
+        </tr>
+        <tr>
+            <td>9th</td>
+            <td>2 pts.</td>
+        </tr>
+        <tr>
+            <td>10th</td>
+            <td>1 pt.</td>
+        </tr>
+    </table>
+    <p>In disconnection cases, you can receive A PART of the points based on this equation:</p>
+    <h5>[(Amount of laps made by a player) * (Pontuation that the player could win when he disconnects)] / (Amount of
+        laps of the race)</h5>
+    <p>EXAMPLE: In a 25 laps race, if you make 17 laps and be on 6th position when you disconnect, you will receive (18
+        * 6) / 25 = 108 / 25 = more or less 4 points</p>
+</body>
+
+</html>

@@ -1,3 +1,3 @@
 # STK Yapira Official website 🐝
 
- -- Under construction yet --
+ -- My old site, new here: https://sewerfox.github.io/sewer-hideout/ --
